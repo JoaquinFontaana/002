@@ -1,0 +1,2 @@
+Me parece que el cambio es adecuado ya que se reduce los niveles de indireccion, añade claridad al metodo
+y se saca la envidia de atributos

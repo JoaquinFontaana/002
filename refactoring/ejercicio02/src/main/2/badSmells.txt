@@ -1,0 +1,1 @@
+Los problemas que veo es que se rompe el encapsulamiento 

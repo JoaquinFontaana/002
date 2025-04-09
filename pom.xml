@@ -16,6 +16,8 @@
   </licenses>
   <modules>
     <module>refactoring</module>
+    <module>refactoring/ejercicio02</module>
+      <module>patrones</module>
   </modules>
 
   <properties>

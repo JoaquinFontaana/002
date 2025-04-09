@@ -1,0 +1,3 @@
+Los malos olores som:
+1: Incosistencia en la visibilidad de los metodos
+2: Nombre de metodos no indician intencionalidad, aplicar Rename Method

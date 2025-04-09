@@ -1,0 +1,3 @@
+Los poblemas de diseño que veo son muchas variables temporales y el bucle adentro del metodo
+Se puede reducir el uso de variables temporales extrayendo el calculo del total de edad y salario en dos metodos
+distintos. El promedio que se calcule en un metodo separado y los resultados se obtiene llamando a los nuevos metodos

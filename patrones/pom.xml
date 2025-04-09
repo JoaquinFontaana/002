@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>patrones</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>patrones-objetos</name>
     <description>Este arquetipo es usado para objetos I y II</description>
 
@@ -26,6 +26,10 @@
             <email>gabriela.perez@gmail.com</email>
         </developer>
     </developers>
+    <modules>
+        <module>ejercicio01</module>
+        <module>p.ejercicio02</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
