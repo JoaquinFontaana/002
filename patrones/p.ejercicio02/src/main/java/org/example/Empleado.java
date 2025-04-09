@@ -5,6 +5,12 @@ public abstract class Empleado {
     private double descuentoSueldoBasico;
     private double descuentoSueldoAdicional;
 
+    public Empleado (double sueldoBasico){
+        this.sueldoBasico= sueldoBasico;
+        this.descuentoSueldoBasico = 0.13;
+        this.descuentoSueldoAdicional = 0.05;
+    }
+
     public double sueldo(){
         return calcularDescuentoBasico(this.sueldoBasico) + this.calcularDescuentoAdicional(this.calcularAdicionales());
     }
