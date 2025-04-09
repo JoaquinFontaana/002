@@ -4,13 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example</groupId>
-        <artifactId>OO2</artifactId>
+        <artifactId>patrones</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
-    <artifactId>ejercicio01</artifactId>
+    <artifactId>p.ejercicio02</artifactId>
     <packaging>jar</packaging>
-    <name>ejercicio01-objetos</name>
+    <name>p.ejercicio02-objetos</name>
     <description>Este arquetipo es usado para objetos I y II</description>
 
     <licenses>
