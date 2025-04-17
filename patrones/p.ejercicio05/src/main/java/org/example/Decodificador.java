@@ -15,6 +15,10 @@ public class Decodificador {
         this.sugerenciaStrategy = sugerenciaStrategy;
     }
 
+    public void agregarPeliculaReproducida(Pelicula pelicula){
+        this.peliculasReproducidas.add(pelicula);
+    }
+
     public List<Pelicula> sugerirPeliculas(){
         return this.sugerenciaStrategy.sugerencia(this);
     }
@@ -26,5 +30,9 @@ public class Decodificador {
 
     public List<Pelicula> getPeliculasReproducidas() {
         return peliculasReproducidas;
+    }
+
+    public void setSugerenciaStrategy(SugerenciaStrategy sugerenciaStrategy) {
+        this.sugerenciaStrategy = sugerenciaStrategy;
     }
 }

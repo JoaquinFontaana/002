@@ -7,7 +7,7 @@
         <artifactId>patrones</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>p.ejercicios05</artifactId>
+    <artifactId>ejercicio05</artifactId>
     <packaging>jar</packaging>
     <name>p.ejercicios05-objetos</name>
     <description>Este arquetipo es usado para objetos I y II</description>

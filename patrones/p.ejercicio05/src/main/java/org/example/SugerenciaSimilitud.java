@@ -16,7 +16,8 @@ public class SugerenciaSimilitud implements SugerenciaStrategy{
                 .get(indiceAleatorio)
                 .getPeliculasSimilares()
                 .stream()
-                .filter(pelicula -> !peliculasReproducidas.contains(pelicula))
+                //Sacar las ya reproducidas
+                .filter(pelicula -> decodificador.getPeliculasNoReproducidas().contains(pelicula))
                 .sorted(Pelicula.porAñoEstrenoDescendente)
                 .limit(3)
                 .collect(Collectors.toList());
