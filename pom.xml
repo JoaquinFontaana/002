@@ -18,6 +18,7 @@
     <module>refactoring</module>
     <module>refactoring/ejercicio02</module>
       <module>patrones</module>
+      <module>patrones/p.ejercicio13</module>
   </modules>
 
   <properties>
