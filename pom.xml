@@ -20,7 +20,8 @@
       <module>patrones</module>
       <module>patrones/p.ejercicio11</module>
       <module>patrones/p.ejercicio12</module>
-      <module>patrones/p.ejercicio13</module>
+    <module>patrones/p.ejercicio13</module>
+
   </modules>
 
   <properties>

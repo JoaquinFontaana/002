@@ -2,7 +2,7 @@ package org.example;
 
 public interface SandwichComponent {
 
-    public abstract double calcularPrecio();
-    public abstract void agregarIngrediente(SandwichComponent ingrediente);
+    public double calcularPrecio();
+    public  void agregarIngrediente(SandwichComponent ingrediente);
 
 }
